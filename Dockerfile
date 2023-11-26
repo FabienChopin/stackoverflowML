@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python:3.10
+FROM public.ecr.aws/lambda/python:3.11
 # Copy function code
 COPY ./app ${LAMBDA_TASK_ROOT}
 # Install the function's dependencies using file requirements.txt
